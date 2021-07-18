@@ -1,0 +1,64 @@
+.baseSettings {
+  fill: fb-white;
+  text-length: 28;
+  text-anchor: middle;
+  opacity: 1;
+  font-family: Colfax;
+}
+
+.smallestFont {
+  font-size: 15;
+}
+
+.smallFont {
+  font-size: 28;
+}
+
+.clock-display {
+  font-family: Colfax;
+}
+
+#dataIcon {
+  fill: white;
+}
+
+#steps #dataCount {
+  font-size: 25;
+  }
+
+.text {
+  font-family: Colfax;
+  fill: fb-white;
+}
+
+.clock {
+  font-family: Colfax-Light;
+  font-size: 95;
+  text-anchor: end;
+  fill: fb-white;
+}
+
+.clock-seconds {
+  font-size: 35;
+  text-length: 10;
+  text-anchor: start;
+  fill: fb-white;
+}
+
+.date {
+  font-size: 25;
+  text-length: 15;
+  text-anchor: middle;
+  font-family: Colfax;
+  fill: fb-white;
+}
+
+#batteryLevel {
+  x: 13;
+  y: 28;
+  font-size: 20;
+  font-family: Colfax;
+  text-anchor: start;
+  text-length: 4;
+  fill: fb-white;
+}
