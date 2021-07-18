@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "21bb709e-a176-478e-99e5-9bec9ef6ff18",
+    "appType": "clockface",
+    "appDisplayName": "Slightly Modified",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "gemini"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Slightly Modified"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
