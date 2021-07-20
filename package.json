@@ -5,7 +5,7 @@
   "fitbit": {
     "appUUID": "21bb709e-a176-478e-99e5-9bec9ef6ff18",
     "appType": "clockface",
-    "appDisplayName": "Slightly Modified",
+    "appDisplayName": "Fluid Arcs - Modified",
     "iconFile": "resources/icon.png",
     "wipeColor": "#607d8b",
     "requestedPermissions": [
@@ -17,7 +17,7 @@
     ],
     "i18n": {
       "en-US": {
-        "name": "Slightly Modified"
+        "name": "Fluid Arcs - Modified"
       }
     },
     "defaultLanguage": "en-US"
