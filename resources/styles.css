@@ -3,7 +3,7 @@
   text-length: 28;
   text-anchor: middle;
   opacity: 1;
-  font-family: Colfax;
+  font-family: System-Light;
 }
 
 .smallestFont {
@@ -15,7 +15,7 @@
 }
 
 .clock-display {
-  font-family: Colfax;
+  font-family: Colfax-Light;
 }
 
 #dataIcon {
@@ -27,7 +27,7 @@
   }
 
 .text {
-  font-family: Colfax;
+  font-family: System-Light;
   fill: fb-white;
 }
 
@@ -49,7 +49,7 @@
   font-size: 25;
   text-length: 15;
   text-anchor: middle;
-  font-family: Colfax;
+  font-family: System-Light;
   fill: fb-white;
 }
 
@@ -57,7 +57,7 @@
   x: 13;
   y: 28;
   font-size: 20;
-  font-family: Colfax;
+  font-family: System-Light;
   text-anchor: start;
   text-length: 4;
   fill: fb-white;
