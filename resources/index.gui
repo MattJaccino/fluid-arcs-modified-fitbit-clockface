@@ -29,25 +29,25 @@
   
   <!-- Battery -->
   <g id="battery" class="deviceData">
-    <image id="battIcon" href="icons/battery.png" width="55" height="32" x="5" y="6" fill="fb-white" opacity="0.4"/>
+    <image id="battIcon" href="icons/battery.png" width="55" height="32" x="5" y="6" fill="fb-white" opacity="0.5"/>
     <text id="batteryLevel">0%</text>
   </g>
   
   
   <!--------- For analog clock ---------->
   <g id="clockface" pointer-events="visible" transform="translate(0%,0%)" opacity="0">
-    <image id="clockfaceimg" href="icons/clockface.png" fill="fb-gray" />
+    <image id="clockfaceimg" href="icons/clockface.png" />
   </g>
   <g id="mins" pointer-events="visible" transform="translate(50%,50%)" opacity="0">
-     <image id="minHand" href="icons/m.png" width="15" height="110" x="$-7" y="-102" fill="fb-gray" />
+     <image id="minHand" href="icons/m.png" width="15" height="110" x="$-7" y="-102" />
   </g>
   <g id="hours" pointer-events="visible" transform="translate(50%,50%)" opacity="0">
-    <image id="hourHand" href="icons/h.png" width="15" height="75" x="$-5" y="-70" fill="fb-gray" />
+    <image id="hourHand" href="icons/h.png" width="15" height="75" x="$-5" y="-70" />
   </g>
   <g id="secs" pointer-events="visible" transform="translate(50%,50%)" opacity="0">
     <rect x="$-1" y="-120" width="2" height="120" fill="fb-red" />
   </g>
-  <circle id="dot" cx="50%" cy="50%" r="3" fill="fb-gray" opacity="0" />
+  <circle id="dot" cx="50%" cy="50%" r="3" fill="#C8C8C8" opacity="0" />
   
   <!-- Touch screen -->
   <circle id="button" cx="50%" cy="50%" r="75" fill="fb-gray" pointer-events="visible" opacity="0" />
