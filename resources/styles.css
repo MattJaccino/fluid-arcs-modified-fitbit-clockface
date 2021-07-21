@@ -3,19 +3,12 @@
   text-length: 28;
   text-anchor: middle;
   opacity: 1;
-  font-family: System-Light;
-}
-
-.smallestFont {
-  font-size: 15;
+  font-family: Colfax;
+  font-weight: light;
 }
 
 .smallFont {
   font-size: 28;
-}
-
-.clock-display {
-  font-family: Colfax-Light;
 }
 
 #dataIcon {
@@ -26,39 +19,43 @@
   font-size: 25;
   }
 
-.text {
-  font-family: System-Light;
-  fill: fb-white;
+.clock-display {
+  font-family: Colfax;
+  font-weight: light;
+  fill: white;
 }
 
 .clock {
   font-family: Colfax-Light;
+  font-weight: bold;
   font-size: 95;
   text-anchor: end;
-  fill: fb-white;
 }
 
 .clock-seconds {
+  font-family: Colfax;
+  font-weight: light;
   font-size: 35;
   text-length: 10;
   text-anchor: start;
-  fill: fb-white;
 }
 
 .date {
   font-size: 25;
   text-length: 15;
   text-anchor: middle;
-  font-family: System-Light;
-  fill: fb-white;
+  font-family: Colfax;
+  font-weight: light;
+  fill: white;
 }
 
 #batteryLevel {
   x: 13;
   y: 28;
   font-size: 20;
-  font-family: System-Light;
+  font-family: Colfax;
+  font-weight: light;
   text-anchor: start;
   text-length: 4;
-  fill: fb-white;
+  fill: white;
 }
