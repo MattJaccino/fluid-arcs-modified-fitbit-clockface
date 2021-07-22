@@ -54,11 +54,12 @@ function g() {
 }
 
 function f() {
+    var t = v("heartRate")
+    // Max HR is 220, change 180 to 220?
     var e = l.heartRate / 180 * 360
     if (e > 360) {
         e = 360
     }
-    var t = v("heartRate")
     t.arcFront.sweepAngle = e
     t.dataCount.text = l.heartRate
 }
@@ -182,7 +183,7 @@ let face = {
   switched: false
 }
 
-var days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
+var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
 a.ontick = function(e) {
     if(!face.switched){
@@ -203,7 +204,7 @@ a.ontick = function(e) {
       
       var day = days[t.getDay()]
 
-      E.text = day + "   " + v + " " + l
+      E.text = day + ",  " + v + " " + l
     }
     else{
       updateClock();
@@ -234,7 +235,7 @@ function fade(){
   let list = [heart, steps, cals];
   for(let i=0; i<list.length; i++){
     if(!face.switched){
-      list[i].style.opacity = 0.5;          
+      list[i].style.opacity = 0.4;          
     }
     else{
       list[i].style.opacity = 1;
