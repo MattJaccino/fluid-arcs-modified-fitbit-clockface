@@ -7,23 +7,23 @@
   
   <!-- Calories -->
   <g id="calories" class="deviceData">
-    <image id="dataIcon" href="icons/calories.png" fill="fb-orange" width="32" height="32" x="40" y="100%-81" />
+    <image id="dataIcon" href="icons/calories.png" fill="fb-orange" width="32" height="32" x="40" y="100%-79" />
     <text id="dataCount" class="baseSettings smallFont"  x="55" y="100%-9">--</text>
   </g>
   
    
   <!-- Heart rate -->
   <g id="heartRate" class="deviceData">
-    <arc id="arcBack" x="50%-31" y="100%-98" width="65" height="65" fill="fb-extra-dark-gray" arc-width="2" start-angle="0" sweep-angle="360" />
-    <arc id="arcFront" x="50%-31" y="100%-98" width="65" height="65" arc-width="2" fill="fb-red" start-angle="0" sweep-angle="0" />
-    <image id="dataIcon" href="icons/heart.png" fill="fb-red" width="32" height="32" x="50%-14" y="100%-79"/>
+    <arc id="arcBack" x="50%-31" y="100%-100" width="64" height="64" fill="fb-extra-dark-gray" arc-width="2" start-angle="0" sweep-angle="360" />
+    <arc id="arcFront" x="50%-31" y="100%-100" width="64" height="64" arc-width="2" fill="fb-red" start-angle="0" sweep-angle="0" />
+    <image id="dataIcon" href="icons/heart.png" fill="fb-red" width="32" height="32" x="50%-15" y="100%-81"/>
     <text id="dataCount" class="baseSettings smallFont" x="50%" y="100%-9">--</text>
   </g>
   
  
   <!-- Steps -->
   <g id="steps" class="deviceData">
-    <image id="dataIcon" href="icons/steps.png" width="32" height="32" fill="fb-blue" x="232" y="100%-81" />
+    <image id="dataIcon" href="icons/steps.png" fill="fb-blue" width="32" height="32" x="232" y="100%-79" />
     <text id="dataCount" class="baseSettings smallFont" x="245" y="100%-9">--</text>
   </g>
   
