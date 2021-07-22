@@ -8,16 +8,8 @@
 }
 
 .smallFont {
-  font-size: 28;
+  font-size: 26;
 }
-
-#dataIcon {
-  fill: white;
-}
-
-#steps #dataCount {
-  font-size: 25;
-  }
 
 .clock-display {
   font-family: Colfax;
